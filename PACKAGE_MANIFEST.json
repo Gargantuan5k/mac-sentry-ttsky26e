@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "purpose": "submission candidate, not sign-off or portal acceptance",
+  "files": {
+    ".github/workflows/docs.yaml": "d777221d83fe5b6c3549982872e98116364b6ad135200d08f4344295c26dfcc3",
+    ".github/workflows/gds.yaml": "ace8d078e8e41987debc6af6e7165c354458a2fb3db6990a5a45f3a637f141f9",
+    ".github/workflows/test.yaml": "8278389f0208d4e9d26901975c1b4847fca38772d1c6718143b4b2d1ce8d9e69",
+    ".gitignore": "7b2d22eb8a9854cdb4f0a450ac43ca3ff2400ca52b7452a58ae99dfb5190ce6d",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "NOTICE": "9e0b8290b536a6443a2c40132fa4d1daabe348750e6c3ade3c6b200f03e44e11",
+    "README.md": "6bcc4f394ceca4668ae0460244dfb0f59f5e784da477f27f6079e5567a5d6429",
+    "docs/info.md": "27f91300d08d0ce36e8ebb89110369e7ba13286c6cfeee9cf286776b71b532bd",
+    "flow_contract.json": "5e089259c94d77dc015391642cb36c00a4c5f92d0ee9f3f8d5abb2c440ff98a5",
+    "info.yaml": "e344707a5e71869c3577f92c9e554a1d1fa8294a145e81bf2c0df6be9ad0afa1",
+    "licenses/Apache-2.0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "requirements/asic-lock.json": "8193040b0ef5289ba2b6d38f2f21ee3201abcab71df6312e65c2707e70406ab8",
+    "scripts/check_package.py": "40ad319a8e815899b1648e65bf2bed1ab27fd13ff0fd3b5571a76dfcb6152438",
+    "src/base.sdc": "34c8f331c366db51a78ed8a0d2a7bbac3b6c1cfe0277a04c6aca9ba4948e7f78",
+    "src/config.json": "b090ca153a4b92ebfb3bb00378d41ef542ada7009c69aaad2313cb3983bc116a",
+    "src/constraints.sdc": "3aff8851aaa17d5becbc5ade9a383126376997156bf310e52a4f268428c9dcd7",
+    "src/constraints_pnr.sdc": "aa150dfe8676208c36880e51a3c1051f78ad8dbf384225025d8d49adeb019b67",
+    "src/mac_hybrid.sv": "fefa976f24c40ff309dac77b116e151c00a0d09351ec237d14fed692d0731fc1",
+    "src/mac_hybrid_datapath.vh": "e1ce7234d1d8f91b278ae45e36d56928bff5c7ea3abff69f79dd993a831bbe77",
+    "src/mac_residue7_check.sv": "f9d701066fd1334b0acfabc20287f75fc08df3f6276ea5165e770945eba481b7",
+    "src/secded_decoder.sv": "64d590d33b6a27c5b3f389877ca3cda7fba781f8b54c6b7a9d73d5773a26f63e",
+    "src/secded_encoder.sv": "4d14b3965504131ecfea1d854c5daea787d0dcb07de250c159408f7d3df88227",
+    "src/secded_functions.vh": "d3b8987bd5178992eb0dd24a3824058a19ecd5ac4c08b6c7bb143aec2def4508",
+    "src/signed_residue7.sv": "05845758feb41614a2ec2149ec52ade598f94cbe130bf43cd256965629bd7e0e",
+    "src/tt_um_mac_sentry.sv": "201dde8992f81a767e07a436398c9dc6e8d987c5e9b3873887cb30fc1a86edb6",
+    "test/Makefile": "fa0c2f9a1596de4b0b2f4f190c562b3086a92cd923312f84cdba7d7cd95b6e29",
+    "test/requirements.txt": "c1ba8e1b931e68c3ff600bb849f20975435fedbb7e5f83932095a05d2dca1372",
+    "test/tb.v": "baaa8d0cbf03f6e1d9aa943b10fb003e0ad20e942cb75c4a9626fc4a7824dab1",
+    "test/test.py": "dadc6bf4b2d3389e50ace9b5400685c42c2b70c38d8d081d1145be79744ad4b5"
+  },
+  "source_files": {
+    ".github/workflows/docs.yaml": {
+      "origin": "asic/submission/.github/workflows/docs.yaml",
+      "sha256": "d777221d83fe5b6c3549982872e98116364b6ad135200d08f4344295c26dfcc3"
+    },
+    ".github/workflows/gds.yaml": {
+      "origin": "asic/submission/.github/workflows/gds.yaml",
+      "sha256": "ace8d078e8e41987debc6af6e7165c354458a2fb3db6990a5a45f3a637f141f9"
+    },
+    ".github/workflows/test.yaml": {
+      "origin": "asic/submission/.github/workflows/test.yaml",
+      "sha256": "8278389f0208d4e9d26901975c1b4847fca38772d1c6718143b4b2d1ce8d9e69"
+    },
+    ".gitignore": {
+      "origin": "asic/submission/.gitignore",
+      "sha256": "7b2d22eb8a9854cdb4f0a450ac43ca3ff2400ca52b7452a58ae99dfb5190ce6d"
+    },
+    "LICENSE": {
+      "origin": "asic/submission/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "NOTICE": {
+      "origin": "asic/submission/NOTICE",
+      "sha256": "9e0b8290b536a6443a2c40132fa4d1daabe348750e6c3ade3c6b200f03e44e11"
+    },
+    "README.md": {
+      "origin": "asic/submission/README.md",
+      "sha256": "6bcc4f394ceca4668ae0460244dfb0f59f5e784da477f27f6079e5567a5d6429"
+    },
+    "docs/info.md": {
+      "origin": "asic/submission/docs/info.md",
+      "sha256": "27f91300d08d0ce36e8ebb89110369e7ba13286c6cfeee9cf286776b71b532bd"
+    },
+    "licenses/Apache-2.0.txt": {
+      "origin": "asic/submission/licenses/Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "requirements/asic-lock.json": {
+      "origin": "requirements/asic-lock.json",
+      "sha256": "8193040b0ef5289ba2b6d38f2f21ee3201abcab71df6312e65c2707e70406ab8"
+    },
+    "scripts/check_package.py": {
+      "origin": "asic/submission/scripts/check_package.py",
+      "sha256": "40ad319a8e815899b1648e65bf2bed1ab27fd13ff0fd3b5571a76dfcb6152438"
+    },
+    "src/base.sdc": {
+      "origin": "asic/submission/src/base.sdc",
+      "sha256": "34c8f331c366db51a78ed8a0d2a7bbac3b6c1cfe0277a04c6aca9ba4948e7f78"
+    },
+    "src/constraints.sdc": {
+      "origin": "asic/flow/constraints.sdc",
+      "sha256": "3aff8851aaa17d5becbc5ade9a383126376997156bf310e52a4f268428c9dcd7"
+    },
+    "src/constraints_pnr.sdc": {
+      "origin": "asic/flow/constraints_pnr.sdc",
+      "sha256": "aa150dfe8676208c36880e51a3c1051f78ad8dbf384225025d8d49adeb019b67"
+    },
+    "src/mac_hybrid.sv": {
+      "origin": "rtl/mac_hybrid.sv",
+      "sha256": "fefa976f24c40ff309dac77b116e151c00a0d09351ec237d14fed692d0731fc1"
+    },
+    "src/mac_hybrid_datapath.vh": {
+      "origin": "rtl/mac_hybrid_datapath.vh",
+      "sha256": "e1ce7234d1d8f91b278ae45e36d56928bff5c7ea3abff69f79dd993a831bbe77"
+    },
+    "src/mac_residue7_check.sv": {
+      "origin": "rtl/mac_residue7_check.sv",
+      "sha256": "f9d701066fd1334b0acfabc20287f75fc08df3f6276ea5165e770945eba481b7"
+    },
+    "src/secded_decoder.sv": {
+      "origin": "rtl/secded_decoder.sv",
+      "sha256": "64d590d33b6a27c5b3f389877ca3cda7fba781f8b54c6b7a9d73d5773a26f63e"
+    },
+    "src/secded_encoder.sv": {
+      "origin": "rtl/secded_encoder.sv",
+      "sha256": "4d14b3965504131ecfea1d854c5daea787d0dcb07de250c159408f7d3df88227"
+    },
+    "src/secded_functions.vh": {
+      "origin": "rtl/secded_functions.vh",
+      "sha256": "d3b8987bd5178992eb0dd24a3824058a19ecd5ac4c08b6c7bb143aec2def4508"
+    },
+    "src/signed_residue7.sv": {
+      "origin": "rtl/signed_residue7.sv",
+      "sha256": "05845758feb41614a2ec2149ec52ade598f94cbe130bf43cd256965629bd7e0e"
+    },
+    "src/tt_um_mac_sentry.sv": {
+      "origin": "asic/rtl/tt_um_mac_sentry.sv",
+      "sha256": "201dde8992f81a767e07a436398c9dc6e8d987c5e9b3873887cb30fc1a86edb6"
+    },
+    "test/Makefile": {
+      "origin": "asic/submission/test/Makefile",
+      "sha256": "fa0c2f9a1596de4b0b2f4f190c562b3086a92cd923312f84cdba7d7cd95b6e29"
+    },
+    "test/requirements.txt": {
+      "origin": "asic/submission/test/requirements.txt",
+      "sha256": "c1ba8e1b931e68c3ff600bb849f20975435fedbb7e5f83932095a05d2dca1372"
+    },
+    "test/tb.v": {
+      "origin": "asic/submission/test/tb.v",
+      "sha256": "baaa8d0cbf03f6e1d9aa943b10fb003e0ad20e942cb75c4a9626fc4a7824dab1"
+    },
+    "test/test.py": {
+      "origin": "asic/submission/test/test.py",
+      "sha256": "dadc6bf4b2d3389e50ace9b5400685c42c2b70c38d8d081d1145be79744ad4b5"
+    }
+  },
+  "pending": [
+    "SDF simulation",
+    "full sign-off and team review",
+    "hosted workflows",
+    "portal submission"
+  ]
+}

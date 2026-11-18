@@ -1,0 +1,17 @@
+MAC Sentry Tiny Tapeout submission
+Copyright 2026 Siddharth Vivek, Tejas Singh Kohli and Arohi Mehta
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+SPDX-License-Identifier: Apache-2.0
+
+Third-party material
+
+The Tiny Tapeout workflow, testbench and test Makefile scaffolding is adapted
+from TinyTapeout/ttsky-verilog-template at commit
+a42e6662fab316e93b4e26399e21d41664a460b7, licensed under Apache-2.0.
+
+The unchanged src/base.sdc is from LibreLane 3.0.14, copyright 2022-2025
+UmbraLogic Technologies LLC, licensed under Apache-2.0.
+
+A copy of the Apache License, Version 2.0 is also retained in
+licenses/Apache-2.0.txt.
